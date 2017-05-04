@@ -3,7 +3,6 @@ package com.bignerdranch.android.example_tow_fragment_one_activity_communication
 /**
  * Created by Administrator on 2017/5/2/002.
  */
-
 public class TextContent {
     private static TextContent sTextContent;
     private String mStringContent;
@@ -27,3 +26,4 @@ public class TextContent {
         mStringContent = stringContent;
     }
 }
+

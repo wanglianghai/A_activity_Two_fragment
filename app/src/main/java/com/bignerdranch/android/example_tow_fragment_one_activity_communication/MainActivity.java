@@ -1,6 +1,7 @@
 package com.bignerdranch.android.example_tow_fragment_one_activity_communication;
 
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements LeftFragment.Call
     }
 }
 */
-public class MainActivity extends AppCompatActivity implements LeftFragment.CallBacks{
+public class MainActivity extends FragmentActivity implements LeftFragment.CallBacks{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
