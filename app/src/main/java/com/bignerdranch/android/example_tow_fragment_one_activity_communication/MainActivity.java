@@ -63,9 +63,9 @@ public class MainActivity extends FragmentActivity implements LeftFragment.CallB
     }
 
     @Override
-    public void updateEdit(String s) {
+    public void updateEdit() {
         RightFragment rf = (RightFragment) getSupportFragmentManager().findFragmentById(R.id.fragment_right_container);
-        rf.updateRightEditor(s);
+        rf.updateRightEditor();
     }
 }
 

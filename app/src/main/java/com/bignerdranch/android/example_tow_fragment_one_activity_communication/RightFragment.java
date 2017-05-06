@@ -48,8 +48,8 @@ public class RightFragment extends Fragment {
         return view;
     }
 
-    public void updateRightEditor(String s) {
-        mEditRight.setText(s);
+    public void updateRightEditor() {
+        mEditRight.setText(TextContent.get().getStringContent());
     }
 
 }

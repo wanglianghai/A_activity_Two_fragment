@@ -68,7 +68,7 @@ public class LeftFragment extends Fragment {
     private CallBacks mCallBacks;
 
     public interface CallBacks{
-        void updateEdit(String string);
+        void updateEdit();
     };
 
     @Override
@@ -92,7 +92,7 @@ public class LeftFragment extends Fragment {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 TextContent.get().setStringContent(s.toString());
-                mCallBacks.updateEdit(s.toString());
+                mCallBacks.updateEdit();
             }
 
             @Override
